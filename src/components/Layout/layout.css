@@ -1,0 +1,18 @@
+.children {
+    width: 300px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#9acd32;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #ff0000;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bold;
+    border-radius: 5px;
+}
