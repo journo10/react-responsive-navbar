@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from "react-router-dom"
-import "./Navbar.css";
+import "./navbar.css"
 
 const Navbar = () => {
   const [icon, setIcon] = useState(false)
@@ -49,12 +49,12 @@ const Navbar = () => {
           <ul className='auth-item'>
             <li className='auth-list'>
               <Link to="/login" onClick={handleCloseMenu}>
-                <span>Login</span><i class="fas fa-sign-in-alt"></i>
+                <span>Login</span><i className="fas fa-sign-in-alt"></i>
               </Link>
             </li>
             <li className='auth-list'>
               <Link to="/register" onClick={handleCloseMenu}>
-                <span>Register</span><i class="fas fa-user-plus"></i>
+                <span>Register</span><i className="fas fa-user-plus"></i>
               </Link>
             </li>
           </ul>
